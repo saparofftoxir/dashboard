@@ -1,0 +1,33 @@
+.login-container {
+    width: 30%;
+    min-height: 400px;
+    /* background-color: rgb(110, 110, 110); */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px auto;
+    align-items: center;
+    padding: 20px;
+    border-radius: 3px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+}
+.login-container > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.login-container > form * {
+    width: 80%;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+button {
+    cursor: pointer;
+}
